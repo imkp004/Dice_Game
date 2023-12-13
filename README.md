@@ -34,4 +34,4 @@
    - The game provides a visual representation of dice rolls and dynamically updates the result.
 
 ### Summary:
-Your project demonstrates a combination of HTML for structure, CSS for styling, and JavaScript for interactivity. It's a great way to practice web development skills, including DOM manipulation and event handling, while creating a fun and interactive game. Additionally, you've implemented animations and conditional statements to enhance the user experience. Keep building and experimenting to further enhance your web development skills!
+My project demonstrates a combination of HTML for structure, CSS for styling, and JavaScript for interactivity. It's a great way to practice web development skills, including DOM manipulation and event handling, while creating a fun and interactive game. Additionally, I've implemented animations and conditional statements to enhance the user experience.

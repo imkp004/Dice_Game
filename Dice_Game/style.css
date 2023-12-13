@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: white;
+    background-size: 100% 50%;
+}
+
+.container {
+    width: 400px;
+    padding: 50px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(50, 50, 50, 0.15);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 30%;
+    max-height: 30%;
+    padding: 10px;
+  }
+
+.dice-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+button {
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px 0;
+    width: 150px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shake {
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(100deg);
+    }
+    50% {
+        transform: rotate(-100deg);
+    }
+    100% {
+        transform: rotate(100deg);
+    }
+}

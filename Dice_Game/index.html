@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="player-info">
+            <label for="player1Name">Player 1 Name:</label>
+            <input type="text" id="player1Name" placeholder="Enter name">
+        </div>
+        <div class="dice-wrapper" id="player1">
+            <img id="die-1-1">
+            <img id="die-1-2">
+        </div>
+        <div class="player-info">
+            <label for="player2Name">Player 2 Name:</label>
+            <input type="text" id="player2Name" placeholder="Enter name">
+        </div>
+        <div class="dice-wrapper" id="player2">
+            <img id="die-2-1">
+            <img id="die-2-2">
+        </div>
+        <p id="result"></p>
+        <button onclick="roll()">ROLL</button>
+    </div>
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
